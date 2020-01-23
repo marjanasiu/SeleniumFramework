@@ -10,24 +10,22 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
 
     @BeforeMethod
-    @Parameters({"url"})
-    public void setup(String url) {
+    public void setup() {
         //setting up the chrome browser.
        System.setProperty("webdriver.chrome.driver",
                "/Users/marjanaaktar/Documents/NormalFramework/Generic/src/main/driver/chromedriver");
-       this.driver = new ChromeDriver();
-       this.driver.manage().window().fullscreen();
-       this.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-       this.driver.get(url);
+       driver = new ChromeDriver();
+       driver.manage().window().fullscreen();
+       driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
     @AfterMethod
     public void cleanup() {
         //Close the chrome browser.
-        this.driver.close();
+        driver.close();
 
     }
 
