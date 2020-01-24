@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a9e242-0c1d-47b2-90df-2f82f04c9c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/home/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/home/HomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebooRunner.XML" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/home/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/home/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/classes/home/HomePage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +76,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeTest.testUserCanLogInSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Facebook" />
       <extension name="coverage">
@@ -101,6 +114,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.HomeTest.testUserCanLogInSuccessfully" />
+        <item itemvalue="TestNG.HomeTest" />
         <item itemvalue="TestNG.CommonAPI.quickTest" />
       </list>
     </recent_temporary>
