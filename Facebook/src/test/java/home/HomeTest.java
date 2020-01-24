@@ -8,6 +8,6 @@ public class HomeTest extends CommonAPI {
     public void testUserCanLogInSuccessfully() {
         driver.get("https://facebook.com");
         HomePage hp = new HomePage();
-        hp.login("marjanasiu@gmail.com","Atlyfe@2019");
+        hp.login("sheulyahmed4@gmail.com","Atlyfe@2019");
     }
 }
